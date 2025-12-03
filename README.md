@@ -17,7 +17,7 @@ O projeto está organizado nos seguintes arquivos e diretórios:
 
 ## Aplicação dos Pilares da POO
 
-[cite_start]O projeto demonstra a aplicação dos quatro pilares fundamentais da Programação Orientada a Objetos[cite: 17, 25]:
+O projeto demonstra a aplicação dos quatro pilares fundamentais da Programação Orientada a Objetos
 
 1.  **Abstração**: Classes como `Pessoa`, `Produto` e a interface `PromocaoStrategy` modelam conceitos do mundo real, focando em suas características e comportamentos essenciais.
 2.  **Encapsulamento**: Os dados (atributos) e comportamentos (métodos) estão agrupados em suas respectivas classes. O acesso e a modificação do estado dos objetos são controlados por métodos específicos.
@@ -26,10 +26,10 @@ O projeto está organizado nos seguintes arquivos e diretórios:
 
 ## Padrões de Projeto Utilizados
 
-[cite_start]Além dos pilares da POO, o projeto implementa padrões de projeto, conforme exigido[cite: 8, 19, 26]:
+Além dos pilares da POO, o projeto implementa padrões de projeto, conforme exigido
 
-1.  [cite_start]**Factory Pattern (Padrão de Criação)**: Implementado na classe `PromocaoFactory`[cite: 43]. Esta classe centraliza a lógica de criação dos objetos de estratégia de promoção, permitindo que o sistema instancie a promoção correta sem acoplar o código às classes concretas.
-2.  [cite_start]**Strategy Pattern (Padrão Comportamental)**: Implementado através da interface `PromocaoStrategy` e suas subclasses concretas (`PromocaoBlackFriday`, `PromocaoValor`)[cite: 44]. Este padrão permite encapsular diferentes algoritmos de cálculo de desconto e torná-los intercambiáveis, facilitando a adição de novas regras de promoção sem alterar o código existente.
+1. **Factory Pattern (Padrão de Criação)**: Implementado na classe `PromocaoFactory` Esta classe centraliza a lógica de criação dos objetos de estratégia de promoção, permitindo que o sistema instancie a promoção correta sem acoplar o código às classes concretas.
+2. **Strategy Pattern (Padrão Comportamental)**: Implementado através da interface `PromocaoStrategy` e suas subclasses concretas (`PromocaoBlackFriday`, `PromocaoValor`). Este padrão permite encapsular diferentes algoritmos de cálculo de desconto e torná-los intercambiáveis, facilitando a adição de novas regras de promoção sem alterar o código existente.
 
 ## Como executar
 3.  **Execução**:
