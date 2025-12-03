@@ -1,7 +1,7 @@
 # Sistema de Vendas para Varejo - TOO 2025-2
 
 **Aluno:** [Rodrigo Pereira Barbosa]  
-**Aluno:** [Vanessa Lago Machado]  
+**Professora:** [Vanessa Lago Machado]  
 
 **Tema:** Sistema de Vendas para Varejo
 
